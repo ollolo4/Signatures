@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>509</width>
+    <height>552</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>20</y>
+      <width>241</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="Shnor">
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="Sh_M"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="Sh_p"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="Sh_q"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="Sh_b"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="Sh_r"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="Sh_a"/>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="Sh_x"/>
+     </item>
+     <item row="9" column="1">
+      <widget class="QPushButton" name="pushSh">
+       <property name="text">
+        <string>Выработать ЭЦП</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="1">
+      <widget class="QLineEdit" name="Sh_y"/>
+     </item>
+     <item row="11" column="1">
+      <widget class="QLineEdit" name="Sh_e"/>
+     </item>
+     <item row="15" column="1">
+      <widget class="QLineEdit" name="Sh_v"/>
+     </item>
+     <item row="16" column="1">
+      <widget class="QPushButton" name="pushVerify_Sh">
+       <property name="text">
+        <string>Проверить ЭЦП</string>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="1">
+      <widget class="QLineEdit" name="Sh">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>Секретный ключ</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="1">
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>Открытый ключ</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>Первая половинка ЭЦП</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>Вторая половинка ЭЦП</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushSh_M">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>M</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButton_p_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>p</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="pushButton_q">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>q</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="pushButton_b">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>b</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="pushButton_r_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>r</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="pushButton_a">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QPushButton" name="pushButton_x_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>x</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QPushButton" name="pushButton_e">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>e</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QPushButton" name="pushButton_y_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>y</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="0">
+      <widget class="QPushButton" name="pushButton_v">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>v</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>Сообщение</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>0</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>Схема подписи Шнора</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>0</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Схема подписи Эль-Гамаля</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>241</width>
+      <height>482</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="El_Gamal">
+     <item row="2" column="2">
+      <widget class="QLineEdit" name="Eg_M"/>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="Eg_m">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLineEdit" name="Eg_p"/>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLineEdit" name="Eg_g"/>
+     </item>
+     <item row="6" column="2">
+      <widget class="QLineEdit" name="Eg_k"/>
+     </item>
+     <item row="9" column="2">
+      <widget class="QLineEdit" name="Eg_x"/>
+     </item>
+     <item row="10" column="2">
+      <widget class="QPushButton" name="pushEg">
+       <property name="text">
+        <string>Выработать ЭЦП</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="2">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Первая половинка ЭЦП</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="2">
+      <widget class="QLineEdit" name="Eg_r"/>
+     </item>
+     <item row="13" column="2">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Вторая половинка ЭЦП</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="2">
+      <widget class="QLineEdit" name="Eg_s"/>
+     </item>
+     <item row="15" column="2">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Открытый ключ</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="2">
+      <widget class="QLineEdit" name="Eg_y"/>
+     </item>
+     <item row="17" column="2">
+      <widget class="QPushButton" name="pushVerify_Eg">
+       <property name="text">
+        <string>Проверить ЭЦП</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="2">
+      <widget class="QLineEdit" name="Eg">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="pushButton_M">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>M</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="pushButton_m">
+       <property name="text">
+        <string>m</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QPushButton" name="pushButton_r">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>r</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="1">
+      <widget class="QPushButton" name="pushButton_s">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>s</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="1">
+      <widget class="QPushButton" name="pushButton_y">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>y</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="pushButton_p">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>p</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="pushButton_g">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>g</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="pushButton_k">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>k</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QPushButton" name="pushButton_x">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>x</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Cекретный ключ</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>Сообщение</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>509</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
